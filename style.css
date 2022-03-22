@@ -1,0 +1,26 @@
+    .parent {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 100vh;
+    }
+    
+    .top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-grow: 1;
+        background-image: url(francesco-ungaro-UO9hm7iBh68-unsplash.jpg);
+        background-size: cover;
+        color: aliceblue;
+    }
+    
+    .bottom {
+        background-color: blue;
+        flex-grow: 3;
+    }
+    
+    .top .title p {
+        justify-content: flex-end;
+    }
